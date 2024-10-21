@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-md bg-body-light border-bottom sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/listings"><i class="fa-regular fa-compass"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-container" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/listings">Explore</a>
+        </div>
+        <div  class="navbar-nav ms-auto">
+          <form class="d-flex" role="search" method="POST" action="/search">
+            <input class="form-control me-2 " name="searchQuery" type="text" placeholder="Search destinations" aria-label="Search">
+            <button class="btn btn-search " id="search-bar" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </form> 
+          <!-- <div class="dropdown">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 search-bar dropdown-toggle" type="search" placeholder="Search destinations" aria-label="Search">
+              <button class="btn btn-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+            </form> 
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div> -->
+        </div>
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="/listings/new">Add your listing</a>
+          <% if(!newUser){%>
+          <a class="nav-link" href="/signup"><b>signup</b></a>
+          <a class="nav-link" href="/login"><b>login</b></a>
+          <%}%>
+          <% if(newUser){ %>
+          <a class="nav-link" href="/logout"><b>logout</b></a>
+          <%}%>
+        </div>
+      </div>
+    </div>
+  </nav>
