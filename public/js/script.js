@@ -63,60 +63,48 @@ rightArrow.addEventListener('click', ()=> {
      }
       
 });
-const icon3 = document.getElementsByClassName("icon3");
-const icon4 = document.getElementsByClassName("icon4");
-const icon5 = document.getElementsByClassName("icon5");
-const rightArrow2 = document.getElementById("right-arrow2");
-clicking2=0;
-rightArrow2.addEventListener('click', ()=> {
-  console.log(clicking2);
-      // if(clicking2==0){
-      //   for(icon of icon3){
-      //     icon.style.display="inline";
-      //   }
-      //   for (iconb of icon4){
-      //     iconb.style.display="inline";
-      //   }
-      //   for (iconc of icon5){
-      //     iconc.style.display="inline";
-      //   }
-      //   clicking2+=1;
-      // }
-       if(clicking2%3==0){
-        for(icon of icon3){
-          icon.style.display="none";
-        }
-        for (iconb of icon4){
-          iconb.style.display="none";
-        }
-        for (iconc of icon5){
-          iconc.style.display="inline";
-        }
-        clicking2+=1;
-      }
-      else if(clicking2%2!=0){
-        for(icon of icon3){
-          icon.style.display="inline";
-        }
-        for (iconb of icon4){
-          iconb.style.display="none";
-        }
-        for (iconc of icon5){
-          iconc.style.display="none";
-        }
-        clicking2+=1;
-      }
-     else{
-      for(icon of icon3){
-        icon.style.display="none";
-      }
-      for (iconb of icon4){
-        iconb.style.display="inline";
-      }
-      for (iconc of icon5){
-        iconc.style.display="none";
-      }
-      clicking2+=1;
-     }    
-});
+// const icon3 = document.getElementsByClassName("icon3");
+// const icon4 = document.getElementsByClassName("icon4");
+// const icon5 = document.getElementsByClassName("icon5");
+// const rightArrow2 = document.getElementById("right-arrow2");
+// clicking2=0;
+// rightArrow2.addEventListener('click', ()=> {
+//   console.log(clicking2);
+//        if(clicking2%3==0){
+//         for(icon of icon3){
+//           icon.style.display="none";
+//         }
+//         for (iconb of icon4){
+//           iconb.style.display="none";
+//         }
+//         for (iconc of icon5){
+//           iconc.style.display="inline";
+//         }
+//         clicking2+=1;
+//       }
+//       else if(clicking2%2!=0){
+//         for(icon of icon3){
+//           icon.style.display="inline";
+//         }
+//         for (iconb of icon4){
+//           iconb.style.display="none";
+//         }
+//         for (iconc of icon5){
+//           iconc.style.display="none";
+//         }
+//         clicking2+=1;
+//       }
+//      else{
+//       for(icon of icon3){
+//         icon.style.display="none";
+//       }
+//       for (iconb of icon4){
+//         iconb.style.display="inline";
+//       }
+//       for (iconc of icon5){
+//         iconc.style.display="none";
+//       }
+//       clicking2+=1;
+//      }    
+// });
 
