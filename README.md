@@ -5,7 +5,7 @@ Wanderlust is a travel-oriented web application that helps users to search **hot
 - **Frontend:** HTML, CSS, EJS (Embedded JavaScript Templates)
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **APIs:** Google Maps API
+- **APIs:** Maps API
 - **Authentication & Security:** Session management, Error handling
 - 
   ## Features
