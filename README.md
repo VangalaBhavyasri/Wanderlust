@@ -1,5 +1,5 @@
 ## Wanderlust
-Wanderlust is a travel-oriented web application that helps users discover nearby **hotels** and **tourist places**. This platform integrates **Map API** for location-based searches and features
+Wanderlust is a travel-oriented web application that helps users can search **hotels** and **tourist places**. This platform integrates **Map API** for location-based searches and features
 
 ##  Tech Stack
 - **Frontend:** HTML, CSS, EJS (Embedded JavaScript Templates)
